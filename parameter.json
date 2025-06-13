@@ -1,0 +1,19 @@
+{
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.example.kiosk/.KioskDeviceAdminReceiver",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://kiosk-web-qr-code.vercel.app/app-debug.apk",
+    "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_CHECKSUM": "bf16fabe79df424e02858ea4ceee74a77b97bb9f736879d1332fa487618ad885",
+    "android.app.extra.PROVISIONING_TIME_ZONE": "Europe/Paris",
+    "android.app.extra.PROVISIONING_LOCALE": "fr_FR",
+    "android.app.extra.PROVISIONING_SKIP_USER_SETUP": true,
+    "android.app.extra.PROVISIONING_SKIP_ENCRYPTION": true,
+    "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": false,
+    "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE": {
+        "kiosk_mode": true,
+        "navigation_mode": "gesture",
+        "hide_status_bar": true,
+        "hide_navigation_bar": true,
+        "gesture_navigation": true,
+        "immersive_mode": true,
+        "screen_timeout": 30000
+    }
+  }
